@@ -1,0 +1,12 @@
+[Emergingthreats - TOR]
+title=Emerging Threats - Tor exit nodes
+feedurl=http://rules.emergingthreats.net/open/snort-edge/rules/emerging-tor.rules
+input_type=http
+type=ip
+threat=TOR
+threat_regex=None
+threat_info=TOR EXIT NODE
+threat_info_regex=None
+data=None
+data_regex=None
+

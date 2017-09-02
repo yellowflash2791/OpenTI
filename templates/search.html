@@ -1,0 +1,35 @@
+
+<html>
+    <head>
+        <title>Threat Intelligence Search</title>
+    </head>
+    <body bgcolor="black">
+        <div id="container">
+            <div class="title">
+			<center>
+                <h1 style="color:white;">Portable TI Search</h1>
+				
+			</center>	
+            </div>
+            <div id="content">
+                
+                <form name="threats" method="post" action="{{ url_for('search') }}">
+                   <center>
+        			 <input type="text" name="search" placeholder="Search.."  style="length: 550px" >
+        
+                     <select name="threats">
+                        <option value="IP">IP</option>
+                        <option value="Domain">Domain</option>
+                        <option value="URL">URL</option>
+                        <option value="ti">String</option> 
+                     </select>
+                     <input type="submit" />
+				   </center> 
+                  					   
+                </form>
+
+
+            </div>
+        </div>
+    </body>
+</html>

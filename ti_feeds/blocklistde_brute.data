@@ -1,0 +1,13 @@
+[Blocklist.de Bruteforce]
+title=IP Blocklist.de CMS Login Bruteforce
+feedurl=http://lists.blocklist.de/lists/bruteforcelogin.txt
+input_type=http
+type=ip
+threat=Malicious Host
+threat_regex=none
+threat_info=Bruteforce
+threat_info_regex=none
+data=none
+data_regex=none
+
+

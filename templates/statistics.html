@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Data Statistics</title>
+<script src="js/jsapi"></script>
+<!-- To use Highcharts uncomment the following 2 lines and delete the previous one
+<script src="js/jquery.min.js"></script>
+<script src="js/highcharts.js"></script>
+-->
+<script src="js/chartkick.js"></script>
+</head>
+<body bgcolor="white">
+<center>
+<h1>Total Data Collected </h1>
+{% column_chart data %}
+{% pie_chart data  %}
+{% bar_chart data %}
+</center>
+</body>

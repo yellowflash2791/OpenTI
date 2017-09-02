@@ -1,0 +1,12 @@
+[DShield Medium Level Sensitivity]
+title=DShield Medium Level Sensitivity
+feedurl=https://www.dshield.org/feeds/suspiciousdomains_Medium.txt
+input_type=http
+type=domain
+threat=Malicious Host
+threat_regex=None
+threat_info=Malicious Domain
+threat_info_regex=None
+data=None
+data_regex=None
+

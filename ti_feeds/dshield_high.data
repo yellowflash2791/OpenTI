@@ -1,0 +1,13 @@
+# add top ips when CSV engine is implemented: https://www.dshield.org/feeds/topips.txt
+[DShield High Level Sensitivity]
+title=DShield High Level Sensitivity
+feedurl=https://www.dshield.org/feeds/suspiciousdomains_High.txt
+input_type=http
+type=domain
+threat=Malicious Host
+threat_regex=None
+threat_info=Malicious Domain
+threat_info_regex=None
+data=None
+data_regex=None
+

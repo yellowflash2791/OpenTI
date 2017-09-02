@@ -1,0 +1,11 @@
+[ZeuS compromised URL blocklist]
+title=ZeuS URL blocklist
+feedurl=https://zeustracker.abuse.ch/blocklist.php?download=compromised
+input_type=http
+type=url
+threat=Malware
+threat_regex=none
+threat_info=Zeus
+threat_info_regex=none
+data=none
+data_regex=none

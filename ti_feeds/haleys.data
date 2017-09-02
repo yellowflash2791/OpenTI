@@ -1,0 +1,12 @@
+[haleys]
+title=the-haleys.org
+feedurl=http://charles.the-haleys.org/ssh_dico_attack_hdeny_format.php/hostsdeny.txt
+input_type=http
+type=ip
+threat=Service Exploitation
+threat_regex=None
+threat_info=SSH
+threat_info_regex=None
+data=None
+data_regex=None
+

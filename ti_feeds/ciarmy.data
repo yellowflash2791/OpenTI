@@ -1,0 +1,12 @@
+[CIArmy Blacklist]
+title=CIArmy bad guys
+feedurl=http://cinsscore.com/list/ci-badguys.txt
+input_type=http
+type=ip
+threat=Malicious Host
+threat_regex=None
+threat_info=Malicious IP
+threat_info_regex=None
+data=None
+data_regex=None
+

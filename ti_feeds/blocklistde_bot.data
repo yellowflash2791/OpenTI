@@ -1,0 +1,11 @@
+[Blocklist.de bots]
+title=IP Blocklist.de bots
+feedurl=http://lists.blocklist.de/lists/bots.txt
+input_type=http
+type=ip
+threat=Malicious Host
+threat_regex=none
+threat_info=Botnet
+threat_info_regex=none
+data=none
+data_regex=none

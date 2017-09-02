@@ -1,0 +1,14 @@
+[ransomware_IP]
+# cvs data with # as delimiter
+#"ip", "risk", "reliability", "malicious activity category","country", "city", "coordinates", "dummy"
+# feed description
+title=Nothink List
+feedurl=https://ransomwaretracker.abuse.ch/feeds/csv/
+input_type=http
+type=ip
+threat=Ransomware
+threat_regex=None
+threat_info=Ransomware
+threat_info_regex=None
+data=None
+data_regex=None

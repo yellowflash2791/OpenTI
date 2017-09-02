@@ -1,0 +1,12 @@
+[Blocklist.de ircbots]
+title=IP Blocklist.de ircbots
+feedurl=http://lists.blocklist.de/lists/ircbot.txt
+input_type=http
+type=ip
+threat=Malicious Host
+threat_regex=none
+threat_info=IRC Botnet
+threat_info_regex=none
+data=none
+data_regex=none
+

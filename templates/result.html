@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+   <body bgcolor="black">
+     <center>
+     <form method="post" action="{{url_for('export')}}">
+     <input type="hidden" name="string" value="{{s}}">
+     <input type="hidden" name="option" value="{{v}}">
+     <input type="submit" value="Export CSV">
+    
+     </form>      
+
+    	 <table border = 1 bgcolor="black">
+         <thead>
+            <td><font color="white">Data</font></td>
+            <td><font color="white">Threat</font></td>
+            <td><font color="white">Threat Information</font></td>
+         </thead>
+        {% for row in rows %}
+            <tr>
+               <td><font color="white">{{row[1]}}</font></td> 
+               <td><font color="white">{{row[2]}}</font></td>
+               <td><font color="white">{{row[3]}}</font></td>
+   
+            </tr>
+         {% endfor %}
+
+
+      </table>
+ </center>
+
+   </body>
+</html>
+
+
+
+

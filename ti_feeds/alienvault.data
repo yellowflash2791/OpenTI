@@ -1,0 +1,11 @@
+[alienvault]
+title=AlienVault List
+feedurl=http://reputation.alienvault.com/reputation.data
+input_type=http
+type=ip
+threat=available
+threat_regex=(Malicious Host|Scanning Host|Spamming)
+threat_info=Malicious IP
+threat_info_regex=None
+data=None
+data_regex=None

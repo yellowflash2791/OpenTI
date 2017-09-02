@@ -1,0 +1,15 @@
+[nothink]
+# cvs data with # as delimiter
+#"ip", "risk", "reliability", "malicious activity category","country", "city", "coordinates", "dummy"
+# feed description
+title=Nothink List
+feedurl=http://www.nothink.org/blacklist/blacklist_ssh_day.txt
+input_type=http
+type=ip
+threat=Service Exploitation
+threat_regex=None
+threat_info=SSH
+threat_info_regex=None
+data=None
+data_regex=None
+

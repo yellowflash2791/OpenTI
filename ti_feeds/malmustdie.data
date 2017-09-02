@@ -1,0 +1,14 @@
+[MalwareMustDie]
+feedurl=http://malwared.malwaremustdie.org/rss.php
+input_type=rss
+type=url
+threat=Malware
+threat_regex=None
+threat_info=title
+threat_info_regex=None
+data=link
+data_regex=https\:\/\/malwared.malwaremustdie.org\/(.+)
+
+
+
+

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Threat Information</title>
+<script src="js/jsapi"></script>
+<!-- To use Highcharts uncomment the following 2 lines and delete the previous one
+<script src="js/jquery.min.js"></script>
+<script src="js/highcharts.js"></script>
+-->
+<script src="js/chartkick.js"></script>
+</head>
+<body bgcolor="white">
+<center>
+<h1> Service Exploitation Statistics</h1>
+{% pie_chart data1 %} 
+<h1> Malicious Host Statistics </h1>
+{% pie_chart data2 %}
+<h1> Malware Statistics </h1>
+{% pie_chart data  %} 
+</center>
+</body>

@@ -1,0 +1,12 @@
+[openphish]
+title=openphish
+feedurl=https://openphish.com/feed.txt
+input_type=http
+type=url
+threat=Phishing
+threat_regex=None
+threat_info=Phishing Website
+threat_info_regex=None
+data=None
+data_regex=None
+

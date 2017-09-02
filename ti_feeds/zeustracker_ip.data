@@ -1,0 +1,13 @@
+[ZeuS IP blocklist]
+title=ZeuS IP blocklist
+feedurl=https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist
+input_type=http
+type=ip
+threat=Malware
+threat_regex=None
+threat_info=Zeus
+threat_info_regex=None
+data=None
+data_regex=None
+
+

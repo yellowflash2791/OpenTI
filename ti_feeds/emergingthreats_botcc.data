@@ -1,0 +1,12 @@
+[Emergingthreats - botcc]
+title=Emerging Threats - Emerging Threats Botnet Command and Control drop rules
+feedurl=http://rules.emergingthreats.net/open/snort-edge/rules/emerging-botcc.rules
+input_type=http
+type=ip
+threat=Malicious Host
+threat_regex=None
+threat_info=Botnet
+threat_info_regex=None
+data=None
+data_regex=None
+

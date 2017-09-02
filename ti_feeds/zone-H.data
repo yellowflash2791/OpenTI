@@ -1,0 +1,14 @@
+[zone-H]
+feedurl=http://www.zone-h.org/rss/specialdefacements
+input_type=rss
+type=url
+threat=Defacement
+threat_regex=None
+threat_info=manual
+threat_info_regex=.+by(.+)
+data=title_detail.value
+data_regex=None
+
+
+
+

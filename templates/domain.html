@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <table border = 1>
+         <thead>
+            <td>Domain</td>
+            <td>Threat</td>
+            <td>Threat Information</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row["domain"]}}</td>
+               <td>{{row["threat"]}}</td>
+               <td> {{ row["threat_info"]}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+      
+      
+   </body>
+</html>

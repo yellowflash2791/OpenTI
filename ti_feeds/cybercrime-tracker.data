@@ -1,0 +1,15 @@
+[cybercrime]
+feedurl=http://cybercrime-tracker.net/rss.xml
+input_type=rss
+type=url
+threat=Malware
+threat_regex=None
+threat_info=summary
+threat_info_regex=None
+data=title
+data_regex=None
+
+
+
+
+

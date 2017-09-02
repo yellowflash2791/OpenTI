@@ -1,0 +1,12 @@
+[ZeuS domain blocklist]
+title=ZeuS domain blocklist
+feedurl=https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
+input_type=http
+type=domain
+threat=Malware
+threat_regex=none
+threat_info=Zeus
+threat_info_regex=none
+data=none
+data_regex=none
+
