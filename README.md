@@ -6,4 +6,5 @@ Installation:
 Open "requirements.txt" and pip install all the python packages
 Onces all the packages are installed
 execute main.py and this will fetch all the data and store it in a sqlite database TI.db,once all the data is collected,execute app.py
-then you can access the gui through http://localhst:8080
+then you can access the gui through http://localhost:8080
+
