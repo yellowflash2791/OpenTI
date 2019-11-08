@@ -1,8 +1,6 @@
 #!/usr/bin/python
 
-import re
-import os 
-def ipv4_filter (value, index=0, pattern=None):
+def ipv4_filter(value, index = 0, pattern = None):
     
     ip = value
     if len(ip) < 7:
@@ -33,9 +31,9 @@ def ipv4_filter (value, index=0, pattern=None):
       
 
 
-def domain(value, index=0, pattern=None):
+def domain(value, index = 0, pattern = None):
 
-    domain=value    
+    domain = value    
     tlds = set((
      'ac',  'ad',  'ae',  'aero',  'af',  'ag',  'ai',  'al',
      'am',  'an',  'ao',  'aq',  'ar',  'arpa',  'as',  'asia',
