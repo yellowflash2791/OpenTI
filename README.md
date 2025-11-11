@@ -1,11 +1,23 @@
-OpenTI is a small, open-source threat-intel collector that fetches known-malicious / blacklisted IPs, domains and URLs and stores them locally so you can export them to CSV and feed them into your SIEM, firewalls, IDS, network appliances, or other tooling.
+# 🛡️ OpenTI
 
-Features
+**OpenTI** is an open-source threat intelligence tool that collects malicious or blacklisted IPs, domains, and URLs from multiple sources, stores them in a local SQLite database, and allows you to view and export them in CSV format.  
+You can easily integrate the exported data into your SIEMs, firewalls, or network security devices.
 
-Collects malicious IP addresses, domains and URLs from configured sources.
+---
 
-Stores everything in a local SQLite database (TI.db) for easy local management.
+## 🚀 Features
 
-Lightweight web GUI for browsing results and exporting to CSV.
+- Collects threat indicators (IPs, domains, URLs) from multiple sources  
+- Stores all data in a local SQLite database (`TI.db`)  
+- Simple web-based GUI for browsing and exporting data  
+- Export data in CSV format for easy integration  
+- Lightweight and easy to deploy
 
-Single-machine friendly: runs with Python and zero external DB dependency.
+---
+
+## 🧰 Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-org/OpenTI.git
+cd OpenTI
